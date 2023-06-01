@@ -46,7 +46,7 @@ public class Striker : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             pointOnboard = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            print(pointOnboard);
+            
             direction = pointOnboard - transform.position;
             direction.Normalize();
             fireDirection = new Vector2(direction.x, direction.y);
