@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pockets
+  - WhiteCoin
+  - BlackCoin
+  - Queen
+  - Striker
+  - BoardBounds
   layers:
   - Default
   - TransparentFX
